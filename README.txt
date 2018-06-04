@@ -1,13 +1,13 @@
 # Red
 A homemade simple programing language named red
 ##########################################################################
-#                                                                                                                             #
-#                                              This is comments                                                      #
-#                                                                                                                             #
+#                                                                        #
+#                   		  This is comments                           #
+#                                                                        #
 ##########################################################################
 
 # The real seperator of every statment is `\n`, but I've found that it easy to make program a mess
-# So I add ";"symbol to resolve it
+# So I add ";"symbol to solve it
 
 # Define a string object whose label is `name`
 name = "Justin"; # Define a string object
@@ -18,9 +18,9 @@ age = 22;
 # This echon is a keyword not a builtin function, it means `echo no new line`
 # It has the ability to call the description function of the object to print the string message
 # The statment after `echon` can be combination of string, int and float objects in this 0.1.1 version
-# Recommend: Use<< string object or int object >>this form when you need print both string, int and float object,
+# Recommend: Use<< string object or int object >>this form when you need print  string, int and float object in the sametime,
 # This form supported aim to make the echon statment clearer
-# NOTE!! there are at least two blank space  among `<<`, name and `>>`
+# NOTE!! there are at least two blank spaces  among `<<`, name and `>>`
 # In fact, you can also use blank space or comma to seperate `echon` statment
 echon "My name is " << name >> ", I'm " << age >> " years old now!";
 
@@ -75,4 +75,5 @@ echon "";
 age = toint age;
 echon "Your name is " << name >> ", and your age is " << age >>;
 echo "";
-echon "I will be " << age + 1 >> "in the next year";
+agee = age + 1;
+echon "I will be " << age >> " years old in the next year";
